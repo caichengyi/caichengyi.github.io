@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chengyi Cai's Homepage</title>
+    <style>
+        a {
+            text-decoration: none; /* 去掉下划线 */
+            color: #4B0082; /* 设置字体颜色为紫色 */
+        }
+        body {
+            font-family: Georgia, sans-serif;
+            font-size: 17px;              /* 设置字体大小为 18px */
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e8f3; /* Even lighter blue-purple background */
+            margin-top: 50px; /* Purple margin at the top */
+            text-align: justify;
+        }
+        .container {
+            width: 800px; /* Fixed width for the main content */
+            margin: 25px auto; /* Increased margin around the content */
+            padding: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-bottom: 50px;
+            background-color: #fff; /* White background for the main content */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow around the container */
+        }
+        .scroll-box {
+            width: 760px;          /* 宽度为 300px */
+            height: 50px;         /* 高度为 150px */
+            border: 0.5px solid #ccc; /* 边框 */
+            padding: 20px;         /* 内边距 */
+            overflow-y: auto;      /* 仅垂直方向出现滚动条 */
+            background-color: #f9f9f9; /* 背景颜色 */
+        }
+        section {
+            margin-bottom: 80px; /* 为每个section添加下边距 */
+        }
+        footer {
+            color: grey; /* 白色字体 */
+            text-align: center; /* 居中文本 */
+        }
+        .content-wrapper {
+            display: flex; /* 使用flexbox布局 */
+            align-items: center; /* 垂直居中对齐 */
+            gap: 20px; /* 图像和文字之间的间距 */
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .image-container {
+            position: relative;
+            width: 400px; /* Adjust the width as per your image size */
+            height: auto;
+        }
+
+        /* The image */
+        .image-container img {
+            width: 400px; /* 设置图片宽度 */
+            height: 120px; /* 设置图片高度 */
+            background-size: cover; /* 图片覆盖容器 */
+            background-position: center; /* 图片居中显示 */
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+        }
+        .badge {
+            position: absolute;
+            top: 5px;
+            left: 0px;
+            background-color: rgba(148, 0, 211, 0.95); /* Light purple color */
+            color: white;
+            padding: 5px 5px;
+            font-size: 12px;
+            border-radius: 5px; /* Optional: Rounded corners for the badge */
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header style="text-align: center; margin-bottom: 20px;">
+            <h1 style="font-size: 2.5em; margin-bottom: 5px; border-bottom: 1.5px solid #D3D3D3; padding-bottom: 5px;">Chengyi CAI (蔡澄奕)</h1>
+            <h3 style="color: grey;">Ph.D. Student</h3>
+        </header>
+
+        <section>
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                <div style="flex: 1; min-width: 300px;">
+                    <p>
+                        <a href="https://cis.unimelb.edu.au/" style="line-height: 1">School of Computing and Information Systems, &nbsp&nbsp&nbsp</a>
+                        <a href="https://eng.unimelb.edu.au/" style="line-height: 1">Faculty of Engineering and Information Technology, </a>
+                        <a href="https://www.unimelb.edu.au/" style="line-height: 1">The University of Melbourne</a>
+                    </p>
+                    <p>
+                        <strong>Address</strong>: Melbourne Connect, 700 Swanston Street, Carlton, VIC, Australia<br>
+                        <strong>Email</strong>: <a href="mailto:chengyi.cai@student.unimelb.edu.au">chengyi.cai [AT] student.unimelb.edu.au</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/caichengyi"><img src="assets/github.png" alt="GitHub Profile" height="30"></a> &nbsp&nbsp&nbsp&nbsp
+                        <a href="https://scholar.google.com.au/citations?user=ogCTxwczFJYC&hl=en&oi=ao"><img src="assets/google.png" alt="Google Scholar Profile" height="30"></a>
+                    </p>
+                </div>
+
+                <div style="flex: 1; min-width: 180px; text-align: center;">
+                    <img src="assets/photo.jpg" alt="..." style="max-width: 70%; border-radius: 10px;">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Biography -->
+        <section>
+            <h2 style="border-bottom: 1.5px solid #D3D3D3;">About Me</h2>
+            <p>
+                Hi there, I am Chengyi Cai, a second year Ph.D. student at <a href="https://github.com/tmlr-group">Trustworthy Machine Learning and Reasoning Group (TMLR)</a>
+                in the Faculty of Engineering and Information Technology, the University of Melbourne, luckily advised by <a href="https://scholar.google.com.au/citations?user=eqe3JS8AAAAJ&hl=en&oi=ao">Dr.
+                Feng Liu</a>, <a href="https://scholar.google.com.au/citations?user=mxS6eHYAAAAJ&hl=en&oi=ao">A/Prof Jianzhong Qi</a> and <a href="https://scholar.google.com.au/citations?user=wNTF8zkAAAAJ&hl=en&oi=ao">Dr. Zesheng Ye</a>. I was once supervised by <a href="https://scholar.google.com.au/citations?user=PNMUgAoAAAAJ&hl=en&oi=ao">Dr. Yuchen Guo</a> and <a href="https://scholar.google.com.au/citations?user=CHAajY4AAAAJ&hl=en&oi=ao">Prof. Qionghai Dai</a>,
+                and obtained a master's degree from Tsinghua University. My current research interests lie in <strong>Learning/Inference under Distribution Shift</strong>,
+                including:
+            </p>
+            <li>Model reprogramming of pre-trained vision models and VLMs (Vision-Language Models)</li>
+            <li>Test-time alignment of VLMs and MLLMs (Multimodal Large Language Models)</li>
+        </section>
+
+
+        <section>
+            <h2 style="border-bottom: 1.5px solid #D3D3D3;">Recent News</h2>
+            <ul  class="scroll-box">
+                <li>[26/09/2024] One paper is accepted by <a href="https://neurips.cc/Conferences/2024">NeurIPS 2024</a> as an <strong>oral</strong>! </li>
+                <li>[06/09/2024] Have passed the <a href="https://gradresearch.unimelb.edu.au/being-a-candidate/confirmation">PhD confirmation</a> and become a PhD candidate! </li>
+                <li>[13/06/2024] One paper is accepted by <a href="https://icml.cc/Conferences/2024">ICML 2024</a> as a <strong>splotlight</strong>!</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 style="border-bottom: 1.5px solid #D3D3D3;">Selected Publications</h2>
+                <div class="content-wrapper">
+                    <!-- 左侧图像 -->
+                    <div class="image-container">
+                        <img src="assets/BLM.png" alt="Image">
+                        <div class="badge">NeurIPS 2024</div> <!-- Badge content -->
+                    </div>
+                    <!-- 右侧文字 -->
+                    <div>
+                        <p style="color: #4B0082; line-height: 1.5; text-align: left; "><strong><a href="https://arxiv.org/abs/2410.24018">Bayesian-guided Label Mapping for Visual Reprogramming.</a></strong>  <a href="https://github.com/tmlr-group/BayesianLM">[Code]</a> </p>
+                        <p style="line-height: 1.5">Chengyi Cai, Zesheng Ye, Lei Feng, Jianzhong Qi, Feng Liu*.
+                        <strong>[NeurIPS 2024 Oral]</strong></p>
+                    </div>
+                </div>
+
+                <div class="content-wrapper">
+                    <!-- 左侧图像 -->
+                    <div class="image-container">
+                        <img src="assets/SMM.png" alt="Image">
+                        <div class="badge">ICML 2024</div> <!-- Badge content -->
+                    </div>
+                    <!-- 右侧文字 -->
+                    <div>
+                        <p style="color: #4B0082; line-height: 1.5; text-align: left;"><strong><a href="https://arxiv.org/abs/2406.03150">Sample-specific Masks for Visual Reprogramming-based Prompting.</a></strong> <a href="https://github.com/tmlr-group/SMM">[Code]</a> </p>
+                        <p style="line-height: 1.5">Chengyi Cai, Zesheng Ye, Lei Feng, Jianzhong Qi, Feng Liu*.
+                        <strong>[ICML 2024 Spotlight]</strong></p>
+                    </div>
+                </div>
+
+
+
+
+        </section>
+
+        <section>
+            <h2 style="border-bottom: 1.5px solid #D3D3D3;">Academic Services</h2>
+            <ul>
+                <li>Conference Reviewer: ICML, NeurIPS, ICLR, AISTATS, etc.</li>
+                <li>Journal Reviewer: Neural Networks, etc.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 style="border-bottom: 1.5px solid #D3D3D3;">Research Intern</h2>
+            <ul>
+                <li>[06/2022-08/2022] @ PAII Inc., under the mentorship of <a href="https://scholar.google.com.au/citations?hl=en&user=feoBnmkAAAAJ">Dr. Peng Chang.</a></li>
+                <li>[12/2021-05/2022] @ Huawei Noah's Ark Lab, under the mentorship of <a href="https://scholar.google.com.au/citations?hl=en&user=ayofPmMAAAAJ">Dr. Peng Yuan.</a></li>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2 style="border-bottom: 1.5px solid #D3D3D3; padding-bottom: 5px;">Awards & Competitions</h2>
+            <ul>
+                <li>[10/2024] NeurIPS 2024 Travel Award</li>
+                <li>[06/2023] The Melbourne Research Scholarship</li>
+                <li>[11/2019,11/2018,11/2017] National Scholarship</li>
+                <li>[08/2019] The First Prize, China’s Undergraduate Intelligent Design Competition</li>
+                <li>[05/2019] The Second Prize, National Undergraduate English Competition</li>
+                <li>[10/2018] Bronze Medal, ACM-ICPC Asia Regional Contest </li>
+                <li>[04/2018] Meritorious Winner, Interdisciplinary Contest in Modeling </li>
+                <li>[03/2018] The Third Prize, National Undergraduate Mathematics Competition (Final)</li>
+                <li>[11/2017] The First Prize, National Undergraduate Mathematics Competition (Preliminary)</li>
+            </ul>
+        </section>
+
+        <footer>
+        <p>&copy; Chengyi Cai | Last Update: <span id="last-updated"></span></p>
+    </footer>
+
+        <script>
+            const lastUpdated = new Date(document.lastModified);
+            const formattedDate = lastUpdated.toLocaleDateString();
+            document.getElementById('last-updated').textContent = formattedDate;
+        </script>
+    </div>
+
+</body>
+
+</html>
